@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.11"></a>
+## [1.0.11](https://github.com/denieler/tmp_lerna/compare/v1.0.10...v1.0.11) (2018-08-03)
+
+
+### Bug Fixes
+
+* update only project 1 ([181c100](https://github.com/denieler/tmp_lerna/commit/181c100))
+
+
+
+
+
 <a name="1.0.10"></a>
 ## [1.0.10](https://github.com/denieler/tmp_lerna/compare/v1.0.9...v1.0.10) (2018-08-03)
 

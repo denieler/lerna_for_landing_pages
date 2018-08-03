@@ -2,11 +2,18 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.0.0-rc.0"
+    "lerna": "^3.0.0-rc.0",
+    "semantic-release": "^15.9.3"
   },
   "scripts": {
     "test": "lerna run test",
     "changed": "lerna changed",
     "deploy": "lerna exec"
+  },
+  "release": {
+    "verifyConditions": "@semantic-release/github",
+    "publish": "@semantic-release/github",
+    "success": "@semantic-release/github",
+    "fail": "@semantic-release/github"
   }
 }

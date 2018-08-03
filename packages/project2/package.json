@@ -1,6 +1,6 @@
 {
   "name": "project2",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Daniel Ostapenko <danielostapenko@gmail.com>",
   "homepage": "",
@@ -17,9 +17,17 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^23.4.2"
+    "jest": "^23.4.2",
+    "last-release-git": "^0.0.3",
+    "semantic-release": "^15.9.3"
   },
   "jest": {
     "testEnvironment": "node"
+  },
+  "release": {
+    "verifyConditions": "@semantic-release/github",
+    "publish": "@semantic-release/github",
+    "success": "@semantic-release/github",
+    "fail": "@semantic-release/github"
   }
 }

@@ -4,5 +4,5 @@ module.exports = project1;
 
 function project1() {
     // TODO
-    console.log('Change project 1')
+    console.log('Change project 1. Modified')
 }

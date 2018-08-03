@@ -15,5 +15,6 @@
     "publish": "@semantic-release/github",
     "success": "@semantic-release/github",
     "fail": "@semantic-release/github"
-  }
+  },
+  "version": "1.0.2"
 }

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.12"></a>
+## [1.0.12](https://github.com/denieler/tmp_lerna/compare/v1.0.11...v1.0.12) (2018-08-03)
+
+
+### Bug Fixes
+
+* deploy project 2 only ([07acaa7](https://github.com/denieler/tmp_lerna/commit/07acaa7))
+
+
+
+
+
 <a name="1.0.11"></a>
 ## [1.0.11](https://github.com/denieler/tmp_lerna/compare/v1.0.10...v1.0.11) (2018-08-03)
 
